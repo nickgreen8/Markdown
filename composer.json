@@ -1,0 +1,24 @@
+{
+	"name": "n8g/markdown",
+	"description": "Markdown parser.",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Nick Green",
+			"email": "nick@nick8green.co.uk"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "4.4.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"N8G\\Markdown\\": "src/",
+			"Tests\\": "tests/"
+		}
+	}
+}
