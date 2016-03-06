@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a8b725eddf7db72ce16abaa6c3e876de",
-    "content-hash": "34ea7648792a7b9706557921cf2ee4b4",
+    "hash": "a90ee5cc2f7a61a2bb75ef81facc376c",
+    "content-hash": "eb905b4296c4979bd3a12fbd11c208ad",
     "packages": [],
     "packages-dev": [
         {
@@ -61,6 +61,45 @@
                 "instantiate"
             ],
             "time": "2015-06-14 21:17:01"
+        },
+        {
+            "name": "n8g/php-unit-helper",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nickgreen8/PHP-Unit-Helper.git",
+                "reference": "717de1d747a8bb899b5277890ea9dc7f5abc600b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nickgreen8/PHP-Unit-Helper/zipball/717de1d747a8bb899b5277890ea9dc7f5abc600b",
+                "reference": "717de1d747a8bb899b5277890ea9dc7f5abc600b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "N8G\\PHPUnitHelper\\": "src/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Nick Green",
+                    "email": "nick@nick8green.co.uk"
+                }
+            ],
+            "description": "PHP Unit helper",
+            "support": {
+                "source": "https://github.com/nickgreen8/PHP-Unit-Helper/tree/master",
+                "issues": "https://github.com/nickgreen8/PHP-Unit-Helper/issues"
+            },
+            "time": "2016-03-05 15:19:07"
         },
         {
             "name": "phpunit/php-code-coverage",
